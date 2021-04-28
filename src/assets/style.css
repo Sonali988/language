@@ -1,0 +1,87 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.page-wrap {
+  margin: 0;
+  padding: 20px 15px 20px 15px;
+  background-color: rgb(148, 229, 243);
+  background-image: linear-gradient(
+    to right,
+    #88f0f0,
+    #f5eab9,
+    #89dbef
+  );
+  background-repeat: repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-items {
+  border: 2px solid #8aa5ce;
+  border-radius: 25px;
+  flex-basis: auto;
+  padding: 15px 28px;
+  margin: 20px;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+}
+
+.title {
+  position: relative;
+  background-color: rgb(202, 202, 202);
+  color: #2c0279;
+  text-shadow: 4px 2px 5px #fff;
+  padding: 10px;
+  font-size: 1.6em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.heading {
+  margin: 42px 40px 60px 40px;
+}
+.search-bar {
+  font-family: cursive;
+  font-size: 1.8em;
+  width: 65%;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.all-language-btn {
+  margin-left: 3%;
+  font-size: 1.8em;
+  font-family: cursive;
+  padding: 15px;
+  background-color: #2653d2c7;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .search-bar {
+    font-size: 1.5em;
+    width: auto;
+    padding: 10px 20px;
+  }
+  .all-language-btn {
+    font-size: 1.5em;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px 0;;
+  }
+}
